@@ -1,0 +1,2 @@
+"trade_id","symbol","action","trade_date","trade_time","entry_price","exit_price","quantity","target_price","stop_loss","entry_criteria","scan_source","notes","status","pnl","pnl_percent","created_at","updated_at"
+1,"AAAU","buy",2025-07-28,2025-07-28 15:25:00,12,NA,100,14,10,"OpenEqualsLow","ClosingRange|PatrickWalker_EPS","21","open",0,0,2025-07-28 15:25:23.354,2025-07-28 15:25:23.354
