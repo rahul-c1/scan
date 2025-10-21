@@ -1640,7 +1640,7 @@ server <- function(input, output, session) {
     tryCatch({
       prices <- tq_get(symbol, 
                        get = "stock.prices",
-                       from = start_date,
+                       from = as.Date(start_date)+1,
                        to = end_date)
       if (nrow(prices) > 0) {
         return(prices)
